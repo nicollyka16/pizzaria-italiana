@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Cores*/
+.gold {
+    background-color: gold;
+}
+
+/* Imagem Banner atrás */
+.banner {
+   position:relative;
+}
+
+.banner::before {
+    content: "";
+    background-image: url('../img/pizzaria\ fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::before {
+    content: "";
+    clear: both;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+    padding-right: 15px;
+}
+
+
+#t2 {
+    float: left;
+}
+
+#img1 {
+    float: left;
+}
+
+#texto1 {
+    float: right;
+}
+
+#img2 {
+    float: right;
+}
+
+#texto2 {
+    float: left;
+}
+
+#nav {
+    background-color: rgb(5, 97, 17);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 0;
+    margin: 0 5px;
+    display: inline;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+    display: inline;
+}
+
+#nav ul#right li {
+    float: right;
+    display: inline;
+
+}
+
+.right {
+    float: right;
+}
+
+ul.right li a {
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+img {
+    width: 100%;
+}
